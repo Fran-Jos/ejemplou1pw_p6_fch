@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textoIni{
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    text-align: center;
+    border-style: dashed;
+    border-color: blueviolet;
+}
+
+.img{
+    margin-top: 10px    ;
+    text-align: center;
+    
+}
+
+.opciones{
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(4, 40px);
+    text-align: center;
+
+    background-color: rgb(212, 215, 217);
+    align-items: center;
+    
+}
+
+button{
+    align-items: center;
+    border-radius: 10px;   
+}
+
+img{
+    border-style: solid;
+    border-color: rgb(229, 249, 15);
+}
+
+p{
+    background-color: blue;
+    border: solid;
+    font-family: 'Times New Roman', Times, serif;
+}
